@@ -1,7 +1,7 @@
 html {
   scroll-behavior: smooth; /*улучшение для плавного скрола к нужному пункту */
 }
-body{
+body {
     font-family: "Raleway", "Arial", sans-serif; /* Если  шрифт Raleway не установлен у пользователя, то пускай откроется в Arial. Если и такого нет, то пусть будет стандартный шрифт без засечек*/
   }
   
@@ -75,7 +75,6 @@ body{
   position: relative;
   z-index: 1;
   margin-right: 10px;
-  margin-left: 10px;
   background-image: url(../images/cover.jpg);
   background-size: cover;
   margin-bottom: 175px;
@@ -165,6 +164,10 @@ body{
   margin-left: -4px;
 }
 .cover__button {
+  color: white;
+  text-align: center;
+  font-size: 22px;
+  text-decoration: none;
   background-color: rgba(0, 0, 0, 0);
   text-transform: uppercase;
   border: 1px solid #fff;
