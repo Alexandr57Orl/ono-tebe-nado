@@ -2,9 +2,9 @@ html {
   scroll-behavior: smooth; /*улучшение для плавного скрола к нужному пункту */
 }
 body {
-    font-family: "Raleway", "Arial", sans-serif; /* Если  шрифт Raleway не установлен у пользователя, то пускай откроется в Arial. Если и такого нет, то пусть будет стандартный шрифт без засечек*/
-  }
-  
+  font-family: "Raleway", "Arial", sans-serif; /* Если  шрифт Raleway не установлен у пользователя, то пускай откроется в Arial. Если и такого нет, то пусть будет стандартный шрифт без засечек*/
+}
+
 /* Header */
 .header__menu {
   min-width: 1052px;
@@ -220,7 +220,7 @@ body {
 .woman {
   margin-bottom: 237px;
 }
-.book{
+.book {
   margin-bottom: -4px;
 }
 .picture {
