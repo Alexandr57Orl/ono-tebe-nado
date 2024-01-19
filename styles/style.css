@@ -24,18 +24,18 @@ body {
   margin: 44px 0 0 1px;
 }
 
-.nav-main__list {
+.nav__header-list {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 32px;
   margin-right: 32px;
 }
-.nav-main__item {
+.nav__header-list-item {
   list-style: circle;
 }
 
-.nav-main__item-nocircle {
+.nocircle {
   list-style: none;
 }
 .favorite {
@@ -83,6 +83,7 @@ body {
   margin-right: 10px;
   background-image: url(../images/cover.jpg);
   background-size: cover;
+  background-position: center;
   margin-bottom: 175px;
 }
 
@@ -156,7 +157,7 @@ body {
   justify-content: space-around;
   align-items: center;
 }
-.cover__text {
+.cover__under-text {
   word-spacing: 18px;
   color: white;
   text-align: center;
@@ -166,10 +167,10 @@ body {
   margin-left: 47px;
 }
 
-.cover__text span {
+.cover__under-text span {
   margin-left: -4px;
 }
-.cover__button {
+.cover__under-button {
   color: white;
   text-align: center;
   font-size: 22px;
